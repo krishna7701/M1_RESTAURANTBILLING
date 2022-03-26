@@ -3,22 +3,22 @@
 #include"RestaurantBilling.h"
 #include"Billing.h"
 
-void bfast(char bfmenu[][100]);
-void lunch( char lunchmenu[][100]);
-void dinner(char dinnermenu[][100]);
-void main_menu();
-void lunch_menucard();
-void display();
-void dinner_menu();
-void display_bf_bill(char bfmenu[][100]);
-void display_lunch_bill(char lunchmenu[][100]);
-void display_dinner_bill(char dinnermenu[][100]);
-void display_bfmenu();
-void repeatbf(char bfmenu[][100]);
-void repeatlunch(char lunchmenu[][100]);
-void repeatdinner(char dinnermenu[][100]);
-void display_total_words();
-void main()
+int bfast(char bfmenu[][100]);
+int lunch( char lunchmenu[][100]);
+int dinner(char dinnermenu[][100]);
+int main_menu(void);
+int lunch_menucard(void);
+int display(void);
+int dinner_menu(void);
+int display_bf_bill(char bfmenu[][100]);
+int display_lunch_bill(char lunchmenu[][100]);
+int display_dinner_bill(char dinnermenu[][100]);
+int display_bfmenu(void);
+int repeatbf(char bfmenu[][100]);
+int repeatlunch(char lunchmenu[][100]);
+int repeatdinner(char dinnermenu[][100]);
+int display_total_words(void);
+int main()
 {
     char bfmenu[][100]={"toast","Idli-wada","Dosa","Upma","milk","tea","coffee"};
     char lunchmenu[][100]={"Veg Biryani","Special meal","Roti","Dal","Paneer Tikka","Veg mix","Icecream"};
