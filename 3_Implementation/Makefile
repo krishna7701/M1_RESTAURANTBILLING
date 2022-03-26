@@ -14,7 +14,7 @@ src/displaydinnerbill.c\
 src/displaylunchbill.c\
 src/displaytotalwords.c\
 src/lunch.c\
-src/Reapeat.c\
+src/Repeatbf.c\
 src/repeatdinner.c\
 src/repeatlunch.c
 
@@ -30,10 +30,7 @@ TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 INC	= -Iinc\
 -Iunity\
 
-#Library Inlcudes
-#if working with CUnit 
-#INCLUDE_LIBS = -lcunit
-INCLUDE_LIBS =
+
 
 # Project Output name
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
